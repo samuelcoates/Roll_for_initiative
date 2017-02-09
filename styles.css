@@ -1,0 +1,131 @@
+h1 {
+    font-family: fantasy;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+h2 {
+    font-family: fantasy;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+h3 {
+    font-family: fantasy;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15px;
+}
+p {
+    font-family: fantasy;
+    font-size: 10px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+blockquote {
+    font-family: fantasy;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+pre {
+    font-family: fantasy;
+    font-size: 10px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: #077886;
+    color: #afada9;
+    font-size: 1.5em;
+    font-family: sans-serif;
+
+}
+.diceContainer {
+    background: #088739;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.diceArea {
+    margin: 0 auto 30px auto;
+    width: 150px;
+    background: #000
+}
+.skillSet {
+    margin: 10 auto 30px auto;
+    width: 150px;
+    background: #000
+}
+.skillRolls {
+    margin: 10 auto 30px auto;
+    width: 150px;
+    background: #000
+}
+button {
+    padding: 10px;
+    margin-right: 30px;
+    background: rgba(175, 173, 169, 0.71);
+    border: none;
+    box-shadow: 3px 5px 5px #000;
+}
+button:hover {
+    box-shadow: inset 1px 1px 1px #000;
+    cursor: pointer;
+}
+button:active {
+    background: #696;
+    box-shadow: inset 1px 1px 3px #000;
+}
+p {
+    display: inline;
+    vertical-align: middle;
+    padding-top: 2px;
+}
+.characterSheet {
+    background: #4b4987;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.raceArea {
+    margin: 0 auto 30px auto;
+    width: 150px;
+    background: #000
+}
+.classArea {
+    margin: 0 auto 30px auto;
+    width: 150px;
+    background: #000
+}
+.deityArea {
+    margin: 0 auto 30px auto;
+    width: 150px;
+    background: #000
+}
+.skillsArea {
+    margin: 0 auto 30px auto;
+    width: 150px;
+    background: #000
+}

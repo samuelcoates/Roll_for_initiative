@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roll for Initiative</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="adventure.js"></script>
+    <script src="objects.js"></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+</body>
+</html>
+<div id="page1">
+<div id="player">
+    <h2>What is your name?</h2>
+    <td><input type="text" id="name"></td>
+    <h2>What race are you?</h2>
+    <select id="race" name="race" style="width: 212px;" onclick="choose()">
+        <option value="human">Human</option>
+        <option value="orc">Orc</option>
+        <option value="drow">Drow</option>
+        <option value="elf">Elf</option>
+        <option value="troll">Troll</option>
+        <option value="dwarf">Dwarf</option>
+        <option value="dragonborn">Dragonborn</option>
+        <option value="tiefling">Tiefling</option>
+    </select>
+    <h2>What is your profession?</h2>
+    <select id="profession" name="profession" style="width: 212px;" onclick="choose()">
+        <option value="ranger">Ranger</option>
+        <option value="paladin">Paladin</option>
+        <option value="cleric">Cleric</option>
+        <option value="barbarian">Barbarian</option>
+        <option value="sorceror">Sorceror</option>
+        <option value="warrior">Warrior</option>
+        <option value="rogue">Rogue</option>
+        <option value="druid">Druid</option>
+    </select>
+    </div>
+    <h2>What is your deity?</h2>
+    <select id="deity" name="deity" style="width: 212px;" onclick="choose();">
+        <option value="pelor">Pelor, the Lightbringer</option>
+        <option value="gruumsh">Gruumsh Warbrand</option>
+        <option value="tiamat">Tiamat, the Blood Drake</option>
+        <option value="ungoliant">Ungoliant, the Spider Queen</option>
+        <option value="avandra">Avandra Lightfoot</option>
+        <option value="bahamut">Bahamut, the Draconic Lawbringer</option>
+        <option value="moradin">Moradin, the Forgehammer</option>
+        <option value="solinari">Solinari Manashaper</option>
+    </select>
+<button onclick='playerBuild()'>Create your Character!</button>
+<button onclick='newPage()'>Next Page!</button>
+</div>
+<div id="page2">
+<h2 id="test"></h2>
+</div>
